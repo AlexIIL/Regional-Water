@@ -1,13 +1,13 @@
 package com.velleth.regionalwater;
 
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
-
 import java.util.Map;
+
+import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 
 /**
  * Created by Zerren on 4/27/2016.
  */
-@IFMLLoadingPlugin.MCVersion("1.7.10")
+@IFMLLoadingPlugin.MCVersion("1.11.2")
 @IFMLLoadingPlugin.TransformerExclusions({"com.velleth.regionalwater"})
 public class RegionalWaterCore implements IFMLLoadingPlugin
 {

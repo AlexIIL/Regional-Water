@@ -21,7 +21,7 @@ public class LocationChecker {
         }
 
         for (BiomeDictionary.Type biome : validBiomes) {
-            System.out.println("Valid biomes: " + biome.name());
+            System.out.println("Valid biomes: " + biome.getName());
         }
     }
 

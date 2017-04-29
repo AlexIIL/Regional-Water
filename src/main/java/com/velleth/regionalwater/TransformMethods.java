@@ -15,7 +15,7 @@ public class TransformMethods {
             waterInitialized = true;
             LocationChecker.initArrays();
         }
-        int currentDim = world.provider.dimensionId;
+        int currentDim = world.provider.getDimension();
 
         //Ocean dimension
         if (LocationChecker.isOceanDim(currentDim)) {
